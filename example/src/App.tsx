@@ -19,10 +19,10 @@ import { testHighlights as _testHighlights } from "./test-highlights";
 import { CommentedHighlight } from "./types";
 
 const TEST_HIGHLIGHTS = _testHighlights;
-const PRIMARY_PDF_URL = "https://arxiv.org/pdf/2203.11115.pdf";
-const SECONDARY_PDF_URL = "https://arxiv.org/pdf/1604.02480.pdf";
+const PRIMARY_PDF_URL = "2203.11115v1.pdf";
+const SECONDARY_PDF_URL = "1604.02480v1.pdf";
 const LONG_LOADING_PDF_URL =
-  "https://cdn.filestackcontent.com/wcrjf9qPTCKXV3hMXDwK";
+  "rfc7540.pdf";
 
 const getNextId = () => String(Math.random()).slice(2);
 
